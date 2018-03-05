@@ -12,9 +12,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
  * WeatherDataService 实现.
- * 
- * @since 1.0.0 2017年11月22日
- * @author <a href="https://waylau.com">Way Lau</a> 
+ *
  */
 @Service
 public class WeatherDataServiceImpl implements WeatherDataService {

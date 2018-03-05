@@ -8,12 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * Weather Controller.
- * 
- * @since 1.0.0 2017年11月22日
- * @author <a href="https://waylau.com">Way Lau</a> 
- */
 @RestController
 @RequestMapping("/weather")
 public class WeatherController {
