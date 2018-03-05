@@ -4,9 +4,6 @@ import java.io.Serializable;
 
 /**
  * 昨日天气.
- *
- * @author <a href="https://waylau.com">Way Lau</a>
- * @since 1.0.0 2017年11月21日
  */
 public class Yeaterday implements Serializable {
     private static final long serialVersionUID = 1L;
