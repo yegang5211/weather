@@ -1,27 +1,19 @@
 package com.hankal.weather.controller;
 
-import io.swagger.annotations.Api;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
-
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 /**
- * Created by yegang5211 on 2018/3/5.
+ * Hello Controller.
+ * 
+ * @since 1.0.0 2017年11月20日
+ * @author <a href="https://waylau.com">Way Lau</a> 
  */
-@Controller
-@RequestMapping(value = "/weather")
-@Api("天气预报相关的api接口介绍") //TODO：【swagger】
+@RestController
 public class HelloController {
-
-    @RequestMapping(value = "/hello1", method = RequestMethod.GET)
-    @ResponseBody
-    public String hello1() {
-        return "hello1,world!";
-    }
-
-    @GetMapping(value = "/hello2")
-    @ResponseBody
-    public String hello2() {
-        return "hello2,world!";
-    }
+	
+	//@RequestMapping("/hello")
+	@GetMapping("/hello")
+	public String hello() {
+		return "Hello World!";
+	}
 }
-
